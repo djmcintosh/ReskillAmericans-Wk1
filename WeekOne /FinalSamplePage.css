@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: lightgray;
+}
+.logo{
+    width: 75px;
+    cursor: pointer;
+    color: white;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navlogo1 {
+    width: 60px;
+    float: right;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 0%;
+}
+.navlogo2 {
+    width: 50px;
+    float: right;
+    align-items: flex-end;
+    padding: 10px;
+}
+.navbar{
+    background-color: lightslategray;
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content h2{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    top: 50%;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 10px;
+    grid-gap: 20px;
+    text-decoration: none;
+    color: none;
+}
+.grid-item{
+    background-color: grey;
+    border: 1px solid rgba(0,0,0,0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    justify-content: space-between;
+}
+.footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: justify;
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer{
+    display: flex;
+    margin-right: auto;
+    justify-content: center;
+}
+button{
+    border-radius: 10%;
+}
